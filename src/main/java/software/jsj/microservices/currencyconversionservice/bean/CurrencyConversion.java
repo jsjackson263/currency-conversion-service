@@ -81,4 +81,15 @@ public class CurrencyConversion {
     public void setEnvironment(String environment) {
         this.environment = environment;
     }
+
+    @Override
+    public String toString() {
+        return "CurrencyConversion{" +
+                "id=" + id +
+                ", from='" + from + '\'' +
+                ", to='" + to + '\'' +
+                ", conversionMultiple=" + conversionMultiple +
+                ", environment='" + environment + '\'' +
+                '}';
+    }
 }
