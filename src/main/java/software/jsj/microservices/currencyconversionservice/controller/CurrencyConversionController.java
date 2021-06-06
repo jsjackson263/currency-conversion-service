@@ -23,7 +23,7 @@ public class CurrencyConversionController {
             @PathVariable String from, @PathVariable String to,
             @PathVariable BigDecimal quantity) {
 
-        //make REST API calls to exchange microservice
+        /* make REST API calls to exchange microservice */
         Map<String, String> uriVariables = new HashMap<>();
         uriVariables.put("from", from);
         uriVariables.put("to", to);
